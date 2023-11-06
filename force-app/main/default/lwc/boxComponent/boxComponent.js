@@ -12,6 +12,10 @@ import createFolder from '@salesforce/apex/BoxApexController.createFolder';
 import uploadFileToBox from '@salesforce/apex/BoxApexController.uploadFileToBox';
 import deleteUserRecord from '@salesforce/apex/BoxApexController.deleteUserRecord';
 
+import  htmlFile from '@salesforce/resourceUrl/reCaptchHTML';
+import jsFile from '@salesforce/resourceUrl/reCaptchJS';
+
+
 
 export default class BoxComponent extends LightningElement {
     @track showBool = false;
