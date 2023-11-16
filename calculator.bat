@@ -1,3 +1,4 @@
 git add -A
-git commit -m "Commit by schedual"
+set commitMessage="Commit by schedual %date% %time%";
+git commit -m %commitMessage%
 git push
